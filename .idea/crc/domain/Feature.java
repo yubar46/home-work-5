@@ -1,7 +1,6 @@
 package domain;
 
 public class Feature {
-
     private String feature ;
     private int id;
 
@@ -51,4 +50,5 @@ public class Feature {
     public void setAttributeId(int attributeId) {
         this.attributeId = attributeId;
     }
+
 }
