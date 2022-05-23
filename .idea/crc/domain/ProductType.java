@@ -9,5 +9,27 @@ public class ProductType {
    private List<Attribute> attributes ;
 
 
+   public String getName() {
+      return name;
+   }
 
+   public void setName(String name) {
+      this.name = name;
+   }
+
+   public int getId() {
+      return id;
+   }
+
+   public void setId(int id) {
+      this.id = id;
+   }
+
+   public List<Attribute> getAttributes() {
+      return attributes;
+   }
+
+   public void setAttributes(List<Attribute> attributes) {
+      this.attributes = attributes;
+   }
 }
